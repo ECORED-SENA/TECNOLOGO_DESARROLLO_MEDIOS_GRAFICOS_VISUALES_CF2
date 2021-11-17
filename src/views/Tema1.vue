@@ -66,7 +66,7 @@
 
     p.mb-4(data-aos="fade") Existen diversos tipos de <em>briefing</em>, como los que puede conocer de manera más detallada a continuación:
 
-    .tarjeta.bg-secundario.mb-4
+    .tarjeta.bg-secundario.mb-4(data-aos="fade-down")
       SlyderA.py-5.px-md-0.px-4
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
@@ -171,8 +171,88 @@
 
     p.mb-4(data-aos="fade") De otra parte, y de mucha importancia, están los elementos que se deben tener presentes, estos son:
 
-
-
+    .tarjeta.bg-acento-botones.p-4(data-aos="fade-down")
+      LineaTiempoC.color-acento-contenido(text-small)
+        .row.justify-content-center(titulo="Objetivo")
+          .col-md-5.mb-4.mb-md-0
+            h4 Objetivo
+            p Conocer el <b>objetivo</b> primordial de la campaña o del elemento de la comunicación. Acá se empieza a trazar la vía por donde irá la estrategia y se plantearán las primeras ideas de cómo se llevará a cabo.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema1-paso1.png', alt='Objetivo')
+        .row.justify-content-center(titulo="Público")
+          .col-md-5.mb-4.mb-md-0
+            h4 Público
+            p Conocer el <b>público</b> a quien va dirigido influirá en la manera como se comunica o se plasman las ideas, se elaboran ideales y se plantean formas de cómo llegar a ese tipo de personas.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema1-paso2.png', alt='Público')      
+        .row.justify-content-center(titulo="Características")
+          .col-md-5.mb-4.mb-md-0
+            h4 Características
+            p Saber las 
+              strong características e ideales de la empresa
+              |, para no tener problemas al momento de plantear posibilidades y poder trabajar de la mano y pensando en el bien común.  
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema1-paso3.png', alt='Características')
+        .row.justify-content-center(titulo="Necesidades específicas")
+          .col-md-5.mb-4.mb-md-0
+            h4 Necesidades específicas
+            p Las 
+              strong necesidades específicas 
+              | tienen que ver con esos elementos que el cliente tiene presentes, sean características o información que se debe tener siempre al momento de pensar en la elaboración de la estrategia o el proyecto. 
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema1-paso4.png', alt='Necesidades específicas')
+        .row.justify-content-center(titulo="Kpis")
+          .col-md-5.mb-4.mb-md-0
+            h4 Kpis
+            p Los <b>Kpis</b> son elementos que van a reconocer si se están haciendo bien las cosas, los indicadores de rendimiento que permitirán tomar medidas y visualizar errores.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema1-paso5.png', alt='Kpis')
+        .row.justify-content-center(titulo="Condicionantes")
+          .col-md-5.mb-4.mb-md-0
+            h4 Condicionantes
+            p Las <b>condicionantes</b> son los temas o elementos que, como su nombre indica, condicionarán los elementos, ya sea por cuestiones presupuestales o simplemente decisiones del cliente.  
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema1-paso6.png', alt='Condicionantes')
+        .row.justify-content-center(titulo="Presupuesto")
+          .col-md-5.mb-4.mb-md-0
+            h4 Presupuesto
+            p El <b>presupuesto</b> es indispensable para no soñar con proyectos inalcanzables, ayuda a tener los pies en la tierra, centrarse y administrar la energía para el aprovechamiento de todos los recursos.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema1-paso7.png', alt='Presupuesto')
+        .row.justify-content-center(titulo="<em>Timing</em>")
+          .col-md-5.mb-4.mb-md-0
+            h4 <em>Timing</em>
+            p El 
+              strong <em>timing</em> 
+              |  es otro elemento importante a tener en cuenta, ya que se debe ser precisos en los momentos de las entregas, de las presentaciones y reuniones con los clientes. Se trata de saber cuáles van a ser los plazos de ejecución, lo que permitirá ser más organizados.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema1-paso8.png', alt='Timing')
+        .row.justify-content-center(titulo="<em>Look and Feel</em>")
+          .col-md-5.mb-4.mb-md-0
+            h4 <em>Look and Feel</em>
+            p El 
+              strong <em>look and feel</em> 
+              |  se puede entender como las características visuales y estéticas que se utilizarán al momento de la creación de los proyectos, al igual que algunas referencias a tener en cuenta.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema1-paso9.png', alt='Look and Feel')
+        .row.justify-content-center(titulo="Especificaciones técnicas")
+          .col-md-5.mb-4.mb-md-0
+            h4 Especificaciones técnicas
+            p Las 
+              strong especificaciones técnicas 
+              | son las características específicas de cómo el cliente quiere algo; se determinan todas las necesarias para no tener inconvenientes al momento de la creación del proyecto.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema1-paso10.png', alt='Especificaciones técnicas')                                    
 
 
     Separador
@@ -182,7 +262,11 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.2  Análisis e interpretación de la información
 
-
+    .row
+      .col-md-7.mb-4(data-aos="fade-right")
+        p Queda claro que el brief es muy importante, ya que facilita toda la información del producto en una primera instancia, antes de desarrollar las estrategias pertinentes. Si se llegase a tener dudas o inquietudes, es importante aclarar el contenido con el cliente antes de iniciar.  Para hacer un buen análisis de esta información, hay que ser muy observador; delimitar cualquier tipo de pesquisa, por pequeña que parezca, puede ser de gran utilidad en el éxito del proyecto. 
+      .col-md-5.mb-4(data-aos="fade-left")
+        img(src='@/assets/curso/tema1-2-img.png', alt='Imagen decorativa')
 
 
 
