@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Gestión de proyectos a partir del <em>brief</em>',
     descripcionCurso:
       'La recolección de la información con la herramienta <em>brief</em>, al igual que algunas de sus características, son las primeras herramientas que se deben tener en cuenta al momento de empezar un proyecto de cualquier índole. <br/><br/>Adicionalmente, es importante conocer y manejar las fases para la creación de un proyecto, en conjunto con los recursos que se deben disponer para realizar los seguimientos a cada una de las fases del proyecto.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
