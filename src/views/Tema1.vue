@@ -262,11 +262,22 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.2  Análisis e interpretación de la información
 
-    .row
+    .row.mb-md-4
       .col-md-7.mb-4(data-aos="fade-right")
         p Queda claro que el brief es muy importante, ya que facilita toda la información del producto en una primera instancia, antes de desarrollar las estrategias pertinentes. Si se llegase a tener dudas o inquietudes, es importante aclarar el contenido con el cliente antes de iniciar.  Para hacer un buen análisis de esta información, hay que ser muy observador; delimitar cualquier tipo de pesquisa, por pequeña que parezca, puede ser de gran utilidad en el éxito del proyecto. 
+        .row.justify-content-center.cajon.color-acento-botones.p-4
+          .col-md-3.col-5.mb-4.mb-md-0
+            img.px-md-3(src='@/assets/curso/tema1-2-ico1.svg', alt='Icono decorativo')
+          .col-md-9.mb-4
+            p.mb-0 Junto con el equipo de trabajo, se pueden desarrollar preguntas en torno al 
+              strong ¿qué?, ¿por qué?, ¿quién?, ¿cómo?
+              |, tanto cuando se tiene un brief completo como cuando no. Un elemento importante para tener una interpretación correcta es el estudio conciso e identificación del público objetivo; en este punto, hay que ser muy concretos, ya que de este aspecto dependerá el éxito del trabajo.
       .col-md-5.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1-2-img.png', alt='Imagen decorativa')
+
+    .titulo-tercero.mb-4(data-aos="fade-right")
+      h3.mb-0 Para estudiar un cliente es necesario investigar las siguientes variables:
+      img(src='@/assets/curso/titulo-tercero.svg', alt='Imagen decorativa')
 
 
 
