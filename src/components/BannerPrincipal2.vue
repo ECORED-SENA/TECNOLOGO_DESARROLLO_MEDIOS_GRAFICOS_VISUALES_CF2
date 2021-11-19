@@ -20,11 +20,11 @@
     .imagen_flotante_1: img(src="@/assets/curso/float1.png")
     .imagen_flotante_2: img(src="@/assets/curso/float2.png")
     .imagen_flotante_3: img(src="@/assets/curso/float3.png")
-    .imagen_flotante_4: img(src="@/assets/curso/float3.png")
-    .imagen_flotante_5: img(src="@/assets/curso/float4.png")
-    .imagen_flotante_6: img(src="@/assets/curso/float5.png")
-    .imagen_flotante_7: img(src="@/assets/curso/float2.png")
-    .imagen_flotante_8: img(src="@/assets/curso/float1.png")
+    .imagen_flotante_4: img(src="@/assets/curso/float4.png")
+    .imagen_flotante_5: img(src="@/assets/curso/float5.png")
+    .imagen_escalable_6: img(src="@/assets/curso/escalable6.png")
+    .imagen_escalable_7: img(src="@/assets/curso/escalable7.png")
+    .imagen_escalable_8: img(src="@/assets/curso/escalable8.png")
   
 
 </template>
@@ -50,7 +50,7 @@ export default {
   height: 100%
   width: 100%
 .banner-principal__info
-  padding-left: 80px  !important
+  padding-left: 80px !important
   z-index: 3
 
 
@@ -93,9 +93,9 @@ export default {
         padding-right: 1.5rem!important
       @media (min-width: $bp-min-sm)
         .banner-principal__img
-          padding-right: 3rem!important
+          padding-right: 4rem!important
 
-  &__img
+  //&__img
     animation: scale 5s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
@@ -120,69 +120,66 @@ export default {
   &_1
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    width: 70px
-    bottom: 80px
-    left: -3%
+    width: 60px
+    top: -4%
+    left: 5%
+    z-index: 99
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    width: 70px
-    top: 30px
-    left: -2%
+    width: 82px
+    bottom: 40px
+    left: -2.5%
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
-    width: 90px
-    bottom: 30px
-    left: 60%
+    width: 155px
+    bottom: -10%
+    left: 37%
   &_4
     animation: float1 4s ease-in-out infinite alternate
     position: absolute
     width: 90px
-    top: -5%
-    left: 55%
-    z-index: 99
+    top: 37%
+    right: -3%
+    z-index: 999
   &_5
     animation: float1 3.9s ease-in-out infinite alternate
     position: absolute
-    width: 40px
-    top: 3%
-    left: 30%
-    z-index: 99
+    width: 60px
+    top: -5%
+    left: 48%
+    z-index: 999
+
+.imagen_escalable
   &_6
-    animation: float1 2.7s ease-in-out infinite alternate
+    animation: scale 5s ease-in-out infinite alternate
     position: absolute
-    width: 167px
-    top: 30%
-    right: 3%
-    z-index: 99
+    top: 4%
+    right: 22%
   &_7
-    animation: float1 2.5s ease-in-out infinite alternate
+    animation: scale 5s ease-in-out infinite alternate
     position: absolute
-    width: 50px
-    bottom: 10%
-    right: 3%
-    z-index: 99
+    top: 18%
+    right: 2%
   &_8
-    animation: float1 3s ease-in-out infinite alternate
+    animation: scale 5s ease-in-out infinite alternate
     position: absolute
-    width: 50px
-    bottom: 20%
-    right: 8%
-    z-index: 99
+    bottom: 8%
+    right: 5%
+
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 @keyframes scale
   0%
-    transform: scale(1.1)
+    transform: scale(1)
 
   100%
-    transform: scale(1)
+    transform: scale(0.8)
 
 
 @media (max-width: $bp-max-md)
@@ -191,4 +188,12 @@ export default {
   .fondo-contenido2
     background-repeat: no-repeat
     background-size: cover
+  .banner-principal__info
+    padding-left: 15px  !important
+  .imagen_flotante
+    &_1, &_2, &_3, &_4, &_5
+      display: none
+  .imagen_escalable
+    &_6, &_7, &_8
+      display: none
 </style>

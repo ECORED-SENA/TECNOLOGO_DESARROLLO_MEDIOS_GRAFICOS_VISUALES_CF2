@@ -1,3 +1,5 @@
+.banner-interno__fondo
+  background-image: url(../assets/curso/interno.png) !important
 .etiqueta
   padding: 1px 2px 2px 3px
   font-weight: 800
@@ -10,23 +12,33 @@ italic
   background-color: #FDD835
   width: fit-content
   padding: 5px 14px
-  position: relative
-.titulo-tercero h3  
+  position: relative 
 .titulo-tercero img
   width: 45px
   position: absolute
   top: -36%
   right: -4.5%
+.titulo-tercero2
+  background-color: #FDD835
+  width: fit-content
+  padding: 5px 14px
+  position: relative 
+.titulo-tercero2 img
+  width: 45px
+  position: absolute
+  top: -36%
+  right: -13.5%  
 .bg-secundario
   background-color: #FDD835
 .bg-acento-botones
   background-color: #B1F9FF
-
+.bg-suave
+  background-color: #FFF3BF
 
 .bloque-fondo-intro
   background-image: url(../assets/curso/fondo-intro.png)
   background-repeat: no-repeat
-  background-size: 100% 33%
+  background-size: contain
   background-position: bottom
 .bg-elemento
   background-image: url(../assets/curso/bg-elemento.png)
@@ -34,7 +46,8 @@ italic
   background-size: 100% 75%
   background-position: bottom  
 
-
+.cajon.color-primario 
+  background-color: #FFD1A2
 
 .slyder-a__tipo-a .slyder-a__bullets
   bottom: 20px  
@@ -67,3 +80,55 @@ italic
   min-height: 42px
   max-height: 42px
   border: 3px solid #12263F
+
+.tarjeta-flip__img, .tarjeta-flip__contenido
+  display: flex
+  flex-direction: column
+  justify-content: center
+.tarjeta-flip__img img  
+  width: 90px
+  margin: 0 auto
+.tarjeta-flip.color-primario .tarjeta-flip__contenido
+  background-color: #26CCDA  
+.tarjeta-flip__contenido p, .tarjeta-flip__contenido h5
+  color: $color-sistema-texto !important
+
+.img-infografica__item, .img-infografica-b__item
+  width: 4.5%
+.img-infografica__item__numero, .img-infografica-b__item__numero
+  font-size: 22px    
+
+.img-infografica-b__modal
+  background-color: #FFF3BF
+  border-radius: 30px
+.img-infografica__item__tooltip, .img-infografica-b__item__tooltip
+  background-color: #FFF3BF
+  border-radius: 8px
+.img-infografica-b__modal__contenido div > *
+  color: $color-sistema-texto !important  
+.img-infografica-b__modal__btn-cerrar i
+  color: $color-sistema-texto !important   
+
+
+// TARJETA HOVER TEMA 1-3
+.bg-degrade
+  background: rgb(38,204,218)
+  background: linear-gradient(180deg, rgba(38,204,218,0.78) 0%, rgba(38,204,218,1) 100%)
+.tarjeta-foto-hover
+  position: relative
+  overflow: hidden
+  &:hover
+    .tarjeta-foto-hover__tarjeta
+      transform: translateY(0%)
+
+  &__titulo
+    position: absolute
+    bottom: 0
+    width: 100%
+  &__tarjeta
+    transition: transform 0.3s ease-in-out
+    position: absolute
+    bottom: 0
+    width: 100%
+    height: 100%
+    transform: translateY(100%)  
