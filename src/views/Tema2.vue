@@ -152,8 +152,17 @@
     
     p.mb-4(data-aos="fade") Existen muchas metodologías que se pueden implementar al momento de la entrega de un proyecto exitoso. Entre las que se exponen a continuación, se pueden encontrar diferentes opciones que ayudan a ciertas categorías de diversos proyectos, como se puede observar a continuación:
 
-
-
+    .row.justify-content-center.tarjeta.bg-suave.mb-4(data-aos="fade-down") 
+      .col-md-10.py-5
+        SlyderE(indicadores="derecha")
+          .row
+            .col-md-6.mb-4.mb-md-0
+              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+          
+            .col-md-6
+              figure
+                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                figcaption Leyenda de la imagen
 
    
 </template>
