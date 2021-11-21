@@ -138,7 +138,7 @@ export default {
 .tarjeta-botones:before
   content: ""
   display: block
-  top: 58%
+  top: 15%
   left: 50%
   width: 8%
   height: 2px

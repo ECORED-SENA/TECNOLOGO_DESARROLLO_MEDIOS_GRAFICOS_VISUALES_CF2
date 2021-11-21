@@ -545,6 +545,7 @@ export default {
   data: () => ({
     // variables de vue
     indicadorTarjetaFlip: true,
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
