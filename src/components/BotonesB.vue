@@ -106,21 +106,6 @@ export default {
         lista2e: 'Gestionar en curso los riesgos y amenazas.',
       },
       {
-        img: require('@/assets/curso/tema2-2-boton3_1.svg'),
-        img_h: require('@/assets/curso/tema2-2-boton3_2.svg'),
-        pos_x: '47.9%',
-        pos_y: '3.1%',
-        titulo: 'Ejecución y seguimiento del proyecto',
-        lista1a: 'Se han procesado y aprobado los resultados del proyecto.',
-
-        lista2a: 'Ejecutar las tareas programadas. ',
-        lista2b:
-          'Realizar control del proyecto, tareas programadas / tareas ejecutadas.',
-        lista2c: 'Medir avance real del proyecto comparándolo con lo planeado.',
-        lista2d: 'Tomar acciones correctivas si fueran necesarias.',
-        lista2e: 'Gestionar en curso los riesgos y amenazas.',
-      },
-      {
         img: require('@/assets/curso/tema2-2-boton4_1.svg'),
         img_h: require('@/assets/curso/tema2-2-boton4_2.svg'),
         pos_x: '64%',
@@ -164,9 +149,9 @@ export default {
   display: none
 .btns_item--1 .li1c, .btns_item--1 .li2e
   display: none
-.btns_item--3 .li1b, .btns_item--3 .li1c
+.btns_item--2 .li1b, .btns_item--2 .li1c
   display: none
-.btns_item--4 .li1c, .btns_item--4 .li2e
+.btns_item--3 .li1c, .btns_item--3 .li2e
   display: none
 
 .btns
@@ -193,14 +178,32 @@ export default {
     p
       line-height: 1.2em
 @media (max-width: $bp-max-md)
+  .btns__item
+    width: 13% !important
+    padding: 13%
+
+  .btns_item--0
+    top: 0.5% !important
+    left: 2.1% !important
+  .btns_item--1
+    top: 0.5% !important
+    left: 25.3% !important
+  .btns_item--2
+    top: 0.5% !important
+    left: 48.3% !important
+  .btns_item--3
+    top: 0.5% !important
+    left: 71.5% !important
+
+
   .btns__text
-    width: 220px
-  .btns__item:nth-child(1n) .btns__text
-    left: 140%
-  .btns__item:nth-last-child(2n) .btns__text
-    left: 40%
-  .btns__item:nth-last-child(3n) .btns__text
-    left: 35%
-  .btns__item:last-child .btns__text
-    left: -40%
+    width: 320px
+  .btns_item--0 .btns__text
+    left: 180% !important
+  .btns_item--1 .btns__text
+    left: 90%
+  .btns_item--2 .btns__text
+    left: 10%
+  .btns_item--3 .btns__text
+    left: -80%
 </style>

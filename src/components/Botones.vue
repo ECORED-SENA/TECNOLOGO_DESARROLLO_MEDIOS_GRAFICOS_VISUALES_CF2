@@ -133,14 +133,16 @@ export default {
   transition: background-image 0.2s ease-in-out
 
 .tarjeta-botones
-  z-index: 2
+  z-index: 3
   border: 2px solid #26CCDA
+  display: block
+  position: relative
 .tarjeta-botones:before
   content: ""
   display: block
-  top: 15%
-  left: 50%
-  width: 8%
+  top: 50%
+  left: -2%
+  width: 12%
   height: 2px
   position: absolute
   background: #26CCDA

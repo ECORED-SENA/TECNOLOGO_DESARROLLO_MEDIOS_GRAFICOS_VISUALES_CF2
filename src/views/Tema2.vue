@@ -24,7 +24,7 @@
         img(src='@/assets/curso/tema2-img.png', alt='Imagen decorativa')
 
     .row.bg-elemento.justify-content-center.py-3.align-items-end(data-aos="fade-down") 
-      .col-md-2.col-5
+      .col-md-2.col-5.mb-4.mb-md-0
         img.px-md-4(src='@/assets/curso/tema2-ico1.svg', alt='Icono decorativo')
       .col-md-8
         .row.align-items-center

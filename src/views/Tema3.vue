@@ -31,7 +31,7 @@
       .col-md-10  
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row.justify-content-center
-            .col-md-2.col-5.mb-4.mb-md-0
+            .col-md-2.col-6.mb-4.mb-md-0
               img.px-md-2(src='@/assets/curso/tema3-1-paso1.svg', alt='Definir el problema objetivo')
             .col-md-9
               h4 Definir el problema objetivo
@@ -40,10 +40,10 @@
             .col-md-9.mb-4.mb-md-0
               h4 Decidir el diseño de la investigación
               p En este punto, se establece el mejor tipo de recolección de información y la forma, al momento de pensar en cuál es más conveniente. Se piensa en los métodos a usar y se plantean las preguntas para la recolección de la información.  
-            .col-md-2.col-5
+            .col-md-2.col-6
               img.px-md-2(src='@/assets/curso/tema3-1-paso2.svg', alt='Decidir el diseño de la investigación')
           .row.justify-content-center
-            .col-md-2.col-5.mb-4.mb-md-0
+            .col-md-2.col-6.mb-4.mb-md-0
               img.px-md-2(src='@/assets/curso/tema3-1-paso3.svg', alt='Recopilar información del público objetivo')
             .col-md-9
               h4 Recopilar información del público objetivo
@@ -52,10 +52,10 @@
             .col-md-9.mb-4.mb-md-0
               h4 Analizar la información recopilada
               p Todos los datos que se recopilen tendrán la información necesaria para resolver objetivos planteados; se analizan los datos, se recopilan y diseñan para una mejor presentación y entendimiento de las cifras.
-            .col-md-2.col-5
+            .col-md-2.col-6
               img.px-md-2(src='@/assets/curso/tema3-1-paso4.svg', alt='Analizar la información recopilada')
           .row.justify-content-center
-            .col-md-2.col-5.mb-4.mb-md-0
+            .col-md-2.col-6.mb-4.mb-md-0
               img.px-md-2(src='@/assets/curso/tema3-1-paso5.svg', alt='Crear un plan de acción')
             .col-md-9
               h4 Crear un plan de acción

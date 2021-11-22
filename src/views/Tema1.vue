@@ -24,7 +24,7 @@
             p.mb-0 El estudio del público o consumidor es muy importante de definir, ya que limita el alcance de la campaña; en este sentido, la demografía se refiere a muchos aspectos, como la calidad de vida, hábitos de consumo o condición económica de cierto grupo poblacional. De igual manera, se tienen en cuenta las campañas realizadas anteriormente por la empresa, con el objetivo de utilizar un mismo lenguaje. El <em>brief</em> marca la pauta en cuanto a los tiempos de ejecución, en algunos casos, el presupuesto estimado y otros requerimientos del cliente y el diseñador. 
 
     .row.bg-elemento.justify-content-center.py-3.align-items-end.mb-4(data-aos="fade-down") 
-      .col-md-2.col-5
+      .col-md-2.col-4.mb-4.mb-md-0
         img.px-md-4(src='@/assets/curso/tema1-ico1.svg', alt='Icono decorativo')
       .col-md-8
         .row.align-items-center
@@ -41,7 +41,7 @@
       | Cada agencia o diseñador realiza su propio formato de brief, ya que no existe un patrón universal del mismo, es más bien un formato acomodado a las necesidades requeridas.
 
     .row.bg-elemento.justify-content-center.py-3.align-items-end(data-aos="fade-down") 
-      .col-md-2.col-5
+      .col-md-2.col-4.mb-4.mb-md-0
         img.px-md-4(src='@/assets/curso/tema1-ico2.svg', alt='Icono decorativo')
       .col-md-8
         .row.align-items-center
@@ -411,7 +411,7 @@
 
 
     .row.bg-elemento.justify-content-center.py-3.align-items-end.mb-4(data-aos="fade-down") 
-      .col-md-2.col-5
+      .col-md-2.col-4.mb-4.mb-md-0
         img.px-md-4(src='@/assets/curso/tema1-2-ico2.svg', alt='Icono decorativo')
       .col-md-8
         .row.align-items-center
