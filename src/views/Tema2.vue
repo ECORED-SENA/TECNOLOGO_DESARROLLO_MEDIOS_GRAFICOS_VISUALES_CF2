@@ -30,7 +30,7 @@
         .row.align-items-center
           .col-md-9.mb-3.mb-md-0
             h4 Gestión de proyectos
-            p.text-small.mb-0 A continuación, observe el video Gestión de proyectos, para una mejor contextualización de este importante tema.
+            p.mb-0 A continuación, observe el video Gestión de proyectos, para una mejor contextualización de este importante tema.
           .col-md-1
             a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
               span Descargar

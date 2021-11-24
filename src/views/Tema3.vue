@@ -72,7 +72,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 3.2  Técnicas para realizar un estudio de mercados
 
-    p.mb-4(data-aos="fade") Un buen estudio de mercado define el cliente o target, y esto ayuda a construir mejor la estrategia o proyecto, ya que permite tener un mayor enfoque y así obtener mejores resultados. La técnica cuantitativa y la cualitativa ayudan a comprender las características del mercado y los factores que los impulsan a tomar decisiones de compra, esto es:
+    p.mb-4(data-aos="fade") Un buen estudio de mercado define el cliente o <em>target</em>, y esto ayuda a construir mejor la estrategia o proyecto, ya que permite tener un mayor enfoque y así obtener mejores resultados. La técnica cuantitativa y la cualitativa ayudan a comprender las características del mercado y los factores que los impulsan a tomar decisiones de compra, esto es:
 
 
     .titulo-tercero2.mb-5(data-aos="fade-right")
@@ -218,7 +218,7 @@
 
     .row
       .col-md-7.mb-4(data-aos="fade-right")
-        .cajon.color-primario.p-4.mb-4
+        .cajon.color-primario.color-2.p-4.mb-4
           p.mb-0 Existen otras tendencias, como son 
             strong el techo 
             | y el 
@@ -264,14 +264,14 @@
                     | Ahorro consciente.
                   li.mb-0
                     i.fas.fa-chevron-right
-                    | Home Office.                 
+                    p.mb-0 <em>Home Office</em>.                 
 
     .titulo-tercero4.mb-4(data-aos="fade-right")
       h3.mb-0 Síntesis
       img(src='@/assets/curso/titulo-tercero.svg', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-5(data-aos="fade-down") 
-      .col-md-11
+      .col-md-12
         figure.mb-4
           img(src='@/assets/curso/tema3-3-sintesis.svg', alt='¿Cómo se gestiona un proyecto?')
 

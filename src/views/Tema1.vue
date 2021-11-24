@@ -29,8 +29,8 @@
       .col-md-8
         .row.align-items-center
           .col-md-9.mb-3.mb-md-0
-            h4 <em>Brief</em>
-            p.text-small.mb-0 A continuación, observe el video <em>Brief</em> para una mejor contextualización de su importancia, sus elementos y cómo puede ayudar a clasificar de una mejor manera los proyectos.
+            h4.mb-1 <em>Brief</em>
+            p.mb-0 A continuación, observe el video <em>Brief</em> para una mejor contextualización de su importancia, sus elementos y cómo puede ayudar a clasificar de una mejor manera los proyectos.
           .col-md-1
             a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
               span Descargar
@@ -42,12 +42,12 @@
 
     .row.bg-elemento.justify-content-center.py-3.align-items-end(data-aos="fade-down") 
       .col-md-2.col-4.mb-4.mb-md-0
-        img.px-md-4(src='@/assets/curso/tema1-ico2.svg', alt='Icono decorativo')
+        img.px-md-3(src='@/assets/curso/tema1-ico2.svg', alt='Icono decorativo')
       .col-md-8
         .row.align-items-center
           .col-md-9.mb-3.mb-md-0
-            h4 <em>Brief</em> o <em>Briefing</em>
-            p.text-small.mb-0 Para reforzar y profundizar sus conceptos en este tema, lo invitamos a ver el video. El 
+            h4.mb-1 <em>Brief</em> o <em>Briefing</em>
+            p.mb-0 Para reforzar y profundizar sus conceptos en este tema, lo invitamos a ver el video. El 
               strong <em>Brief</em>  
               |  o 
               strong <em>Briefing</em> 
@@ -62,7 +62,7 @@
 
     // 1.1
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h2 1.1  Tipos de brief y sus elementos 
+      .h2 1.1  Tipos de <em>brief</em> y sus elementos 
 
     p.mb-4(data-aos="fade") Existen diversos tipos de <em>briefing</em>, como los que puede conocer de manera más detallada a continuación:
 
@@ -78,13 +78,17 @@
                 | Canales que se van a utilizar.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | Público al cual se dirige la campaña (target).
+                p.mb-0 Público al cual se dirige la campaña (
+                  italic target
+                  |).
               li.mb-0 
                 i.fas.fa-chevron-right
                 | Directrices del tono y uso del lenguaje comunicativo.
               li.mb-0 
                 i.fas.fa-chevron-right
-                | Propuesta de venta y USP (siglas en inglés de Unique Selling Proposition, lo que traduce “propuesta única de venta o de valor”).
+                p.mb-0 Propuesta de venta y USP (siglas en inglés de 
+                  italic Unique Selling Proposition
+                  |, lo que traduce “propuesta única de venta o de valor”).
               li.mb-0 
                 i.fas.fa-chevron-right
                 | Fechas exactas de lanzamientos en los canales propuestos.
@@ -100,7 +104,7 @@
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 <em>Briefing</em> creativo
-            p Busca dar las herramientas necesarias al equipo creativo para desarrollar ideas que revolucionen e impacten de manera propositiva la campaña. Corresponde a la información detallada a nivel gráfico y visual, con toda la propuesta de piezas y acciones a desarrollar: marca, logotipo, poster, catálogo, promoción, formatos, materiales, entre otros.
+            p Busca dar las herramientas necesarias al equipo creativo para desarrollar ideas que revolucionen e impacten de manera propositiva la campaña. Corresponde a la información detallada a nivel gráfico y visual, con toda la propuesta de piezas y acciones a desarrollar: marca, logotipo, <em>poster</em>, catálogo, promoción, formatos, materiales, entre otros.
           .col-md-4
             figure
               img(src='@/assets/curso/tema1-slider2.svg', alt='Texto que describa la imagen')
@@ -264,14 +268,14 @@
 
     .row.mb-md-5
       .col-md-7.mb-4(data-aos="fade-right")
-        p Queda claro que el brief es muy importante, ya que facilita toda la información del producto en una primera instancia, antes de desarrollar las estrategias pertinentes. Si se llegase a tener dudas o inquietudes, es importante aclarar el contenido con el cliente antes de iniciar.  Para hacer un buen análisis de esta información, hay que ser muy observador; delimitar cualquier tipo de pesquisa, por pequeña que parezca, puede ser de gran utilidad en el éxito del proyecto. 
+        p Queda claro que el <em>brief</em> es muy importante, ya que facilita toda la información del producto en una primera instancia, antes de desarrollar las estrategias pertinentes. Si se llegase a tener dudas o inquietudes, es importante aclarar el contenido con el cliente antes de iniciar.  Para hacer un buen análisis de esta información, hay que ser muy observador; delimitar cualquier tipo de pesquisa, por pequeña que parezca, puede ser de gran utilidad en el éxito del proyecto. 
         .row.justify-content-center.cajon.color-acento-botones.p-4
           .col-md-3.col-5.mb-4.mb-md-0
             img.px-md-3(src='@/assets/curso/tema1-2-ico1.svg', alt='Icono decorativo')
           .col-md-9
             p.mb-0 Junto con el equipo de trabajo, se pueden desarrollar preguntas en torno al 
               strong ¿qué?, ¿por qué?, ¿quién?, ¿cómo?
-              |, tanto cuando se tiene un brief completo como cuando no. Un elemento importante para tener una interpretación correcta es el estudio conciso e identificación del público objetivo; en este punto, hay que ser muy concretos, ya que de este aspecto dependerá el éxito del trabajo.
+              |, tanto cuando se tiene un <em>brief</em> completo como cuando no. Un elemento importante para tener una interpretación correcta es el estudio conciso e identificación del público objetivo; en este punto, hay que ser muy concretos, ya que de este aspecto dependerá el éxito del trabajo.
       .col-md-5.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1-2-img.png', alt='Imagen decorativa')
 
@@ -364,7 +368,7 @@
                 .col-md-4.mb-4.mb-md-0
                   img.px-md-3(src='@/assets/curso/tema1-2-modal-ico1.svg', alt='Imagen decorativa')
                 .col-md-8
-                  p.mb-0 Revisar la información de manera clara y concisa, ejecutando una buena planificación del proyecto, contribuyen al éxito. Es de vital importancia estudiar los datos esenciales del brief, como los objetivos y el direccionamiento de este, teniendo siempre un concepto objetivo, sin desviar el proyecto a capricho personal; se debe recordar que, aunque usted sea la mente creativa, no se trabaja para sí mismo sino para otra persona. 
+                  p.mb-0 Revisar la información de manera clara y concisa, ejecutando una buena planificación del proyecto, contribuyen al éxito. Es de vital importancia estudiar los datos esenciales del <em>brief</em>, como los objetivos y el direccionamiento de este, teniendo siempre un concepto objetivo, sin desviar el proyecto a capricho personal; se debe recordar que, aunque usted sea la mente creativa, no se trabaja para sí mismo sino para otra persona. 
             .col-md-4
               img(src='@/assets/curso/tema1-2-modal1.jpg', alt='Conociendo al cliente. Revisar la información')
 
@@ -391,7 +395,7 @@
           div.row(x="49.3%" y="36%" tooltip="La planificación" numero="3")
             h4 La planificación
             .col-md-7
-              p Antes de iniciar cualquier actividad es indispensable realizar una planificación, esta nos provee los pasos necesarios para una consecución exitosa de cualquier tarea, esto aplica en la retroalimentación o feedback; es importante definir el objetivo, identificar cuál es el problema o la pregunta que se desea responder, cuáles son las incógnitas a despejar que permitan una mejor comprensión de la situación; de esta manera, poder recopilar la información necesaria, relevante y exacta, que por pequeña que parezca puede llegar a ser muy valiosa. 
+              p Antes de iniciar cualquier actividad es indispensable realizar una planificación, esta nos provee los pasos necesarios para una consecución exitosa de cualquier tarea, esto aplica en la retroalimentación o <em>feedback</em>; es importante definir el objetivo, identificar cuál es el problema o la pregunta que se desea responder, cuáles son las incógnitas a despejar que permitan una mejor comprensión de la situación; de esta manera, poder recopilar la información necesaria, relevante y exacta, que por pequeña que parezca puede llegar a ser muy valiosa. 
             .col-md-5
               img(src='@/assets/curso/tema1-2-modal3.svg', alt='La planificación')
 
@@ -405,7 +409,7 @@
           div.row(x="66.3%" y="47.3%" tooltip="El cierre" numero="5")
             h4 El cierre
             .col-md-7
-              p Una vez terminada la sesión de retroalimentación es importante hacer un resumen de la misma, los puntos que se aclaran, los objetivos y acuerdos a los que se llegaron, para que el feedback sea realmente efectivo y lleve a una ganancia personal, del equipo, la empresa y por supuesto el cliente. 
+              p Una vez terminada la sesión de retroalimentación es importante hacer un resumen de la misma, los puntos que se aclaran, los objetivos y acuerdos a los que se llegaron, para que el <em>feedback</em> sea realmente efectivo y lleve a una ganancia personal, del equipo, la empresa y por supuesto el cliente. 
             .col-md-5
               img(src='@/assets/curso/tema1-2-modal5.svg', alt='El cierre')    
 
@@ -417,7 +421,7 @@
         .row.align-items-center
           .col-md-9.mb-3.mb-md-0
             h4 Modelos <em>Brief</em>
-            p.text-small.mb-0 Para conocer y familiarizarse con diversos formatos para recopilar información con mayor claridad, descargue el siguiente documento.
+            p.mb-0 Para conocer y familiarizarse con diversos formatos para recopilar información con mayor claridad, descargue el siguiente documento.
           .col-md-1
             a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Plantilla-Brief.pdf')" target="_blank" type="application/pdf")
               span Descargar
@@ -429,7 +433,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-          p <b>Enlace web.</b> Para  reforzar sus conceptos en este tema, se le invita a visitar el siguiente enlace de Dropbox, donde podrá encontrar algunos modelos de brief, que ayudarán a recopilar la información con más claridad, ¡no deje de revisarlos!
+          p <b>Enlace web.</b> Para  reforzar sus conceptos en este tema, se le invita a visitar el siguiente enlace de Dropbox, donde podrá encontrar algunos modelos de <em>brief</em>, que ayudarán a recopilar la información con más claridad, ¡no deje de revisarlos!
 
     Separador
 
