@@ -455,6 +455,11 @@
       .col-md-5.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1-3-img.png', alt='Imagen decorativa')
     
+    .row.justify-content-center.mb-5(data-aos="fade-down") 
+      .col-md-10
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/gyWNLNeB1Jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     p.mb-4(data-aos="fade") A continuación, conocerá las etapas del proceso creativo:
 
     figure.mb-4

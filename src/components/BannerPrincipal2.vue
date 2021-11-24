@@ -181,7 +181,17 @@ export default {
   100%
     transform: scale(0.8)
 
-
+@media (min-width: $bp-min-xxl)
+  .imagen_escalable
+    &_6
+      top: 0%
+      right: 27%
+    &_7
+      top: 26%
+      right: 6%
+    &_8
+      bottom: 6%
+      right: 10%
 @media (max-width: $bp-max-md)
   .fondo-contenido
     display: none

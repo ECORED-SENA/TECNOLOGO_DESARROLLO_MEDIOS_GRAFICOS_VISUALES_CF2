@@ -13,8 +13,13 @@
 
     p.mb-4(data-aos="fade") Este importante estudio es utilizado no solo en la industria de la comunicación, sino en cualquier industria o área, ya que es un elemento fundamental si se quiere conocer el mercado al que va dirigido cualquier producto o servicio. Revise con mayor detalle lo que significa el estudio de mercados, a continuación:
 
-    .botones-hover
+    .botones-hover.mb-4
       Botones(data-aos="fade-down")
+    
+    .row.justify-content-center(data-aos="fade-down") 
+      .col-md-10
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/No9yQXsjmXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
 
     Separador
 
@@ -168,6 +173,10 @@
           .tarjeta.bg-color-primario2.p-4(titulo="Análisis <em>FODA</em>")
             h4 Análisis <em>FODA</em>
             p Análisis de fortalezas, oportunidades, debilidades y amenazas, de un proyecto u organización.
+            a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
+              span Ver video
+              i.fas.fa-play
+              .indicador--click(v-if="mostrarIndicador")
           .tarjeta.bg-color-primario2.p-4(titulo="Análisis <em>GAP</em>")
             h4 Análisis <em>GAP</em>
             p Es un análisis que mide los desempeños ideales y reales, haciendo diferencias y generando medidas para la técnica cuantitativa. 
@@ -180,6 +189,14 @@
           .tarjeta.bg-color-primario2.p-4(titulo="Análisis de tendencias")
             h4 Análisis de tendencias 
             p Un análisis que va ligado a un tiempo significativo, haciendo relaciones de variables y estableciendo tendencias, ayudando a comprender comportamientos repetibles. 
+    
+    ModalA(:abrir-modal.sync="modal1")
+      .row.justify-content-center
+        .col-md-10
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/84fuGpQeYg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+
 
     Separador
 
@@ -291,6 +308,7 @@ export default {
   data: () => ({
     // variables de vue
     mostrarIndicador: true,
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {
