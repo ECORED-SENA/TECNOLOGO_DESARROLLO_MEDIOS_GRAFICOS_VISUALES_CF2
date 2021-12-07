@@ -32,7 +32,7 @@
             h4.mb-1 <em>Brief</em>
             p.mb-0 A continuación, observe el video <em>Brief</em> para una mejor contextualización de su importancia, sus elementos y cómo puede ayudar a clasificar de una mejor manera los proyectos.
           .col-md-1
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3(href="https://www.youtube.com/watch?v=SvR-bixZCNY" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 
@@ -53,7 +53,7 @@
               strong <em>Briefing</em> 
               | , que encuentra disponible en el material complementario.
           .col-md-1
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3(href="https://www.youtube.com/watch?v=SvR-bixZCNY" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 

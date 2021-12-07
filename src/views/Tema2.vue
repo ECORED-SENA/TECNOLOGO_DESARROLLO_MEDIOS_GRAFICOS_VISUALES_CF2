@@ -32,7 +32,7 @@
             h4 Gestión de proyectos
             p.mb-0 A continuación, observe el video Gestión de proyectos, para una mejor contextualización de este importante tema.
           .col-md-1
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3(href="https://youtu.be/cgXfottM9w0" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 
