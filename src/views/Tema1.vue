@@ -33,8 +33,8 @@
             p.mb-0 A continuación, observe el video <em>Brief</em> para una mejor contextualización de su importancia, sus elementos y cómo puede ayudar a clasificar de una mejor manera los proyectos.
           .col-md-1
             a.boton.color-acento-botones.me-3(href="https://www.youtube.com/watch?v=SvR-bixZCNY" target="_blank" type="application/pdf")
-              span Descargar
-              i.fas.fa-file-download
+              span Ver
+              i.fas.fa-play
 
     p.mb-4(data-aos="fade")
       strong Por medio del <em>brief</em> podemos saber si las expectativas de un cliente son exageradas o por el contrario un poco tímidas. 
@@ -53,9 +53,9 @@
               strong <em>Briefing</em> 
               | , que encuentra disponible en el material complementario.
           .col-md-1
-            a.boton.color-acento-botones.me-3(href="https://www.youtube.com/watch?v=SvR-bixZCNY" target="_blank" type="application/pdf")
-              span Descargar
-              i.fas.fa-file-download
+            a.boton.color-acento-botones.me-3(href="https://www.youtube.com/watch?v=6vlN4DZVQGc" target="_blank" type="application/pdf")
+              span Ver
+              i.fas.fa-play
 
     Separador
 
@@ -302,7 +302,7 @@
               h4 Nicho de mercado 
             .tarjeta-flip__contenido.p-4
               h5 Nicho de mercado 
-              p.mb-0 Edad a la cual va a ser dirigido, nicho de mercado (porción o segmento de éste). Es importante hacer un estudio preciso de este punto, ya que no todos los productos son para todas las edades, por ejemplo, un videojuego no es un producto muy factible para un padre de familia, pero sí para su hijo. 
+              p.mb-0 Edad a la cual va a ser dirigido, nicho de mercado (porción o segmento de este). Es importante hacer un estudio preciso de este punto, ya que no todos los productos son para todas las edades, por ejemplo, un videojuego no es un producto muy factible para un padre de familia, pero sí para su hijo. 
       .col-sm-6.col-xl-3.mb-4
         .tarjeta.tarjeta-flip.color-primario.text-center
           .tarjeta-flip__contenedor
