@@ -184,14 +184,14 @@ export default {
 @media (min-width: $bp-min-xxl)
   .imagen_escalable
     &_6
-      top: 0%
+      top: 7%
       right: 27%
     &_7
-      top: 26%
+      top: 28%
       right: 6%
     &_8
       bottom: 6%
-      right: 10%
+      right: 14%
 @media (max-width: $bp-max-md)
   .fondo-contenido
     display: none
